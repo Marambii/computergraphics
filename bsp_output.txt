@@ -1,0 +1,13 @@
+============================================================
+BSP TREE ASSIGNMENT OUTPUT
+============================================================
+
+CASE 1: Triangles where splits occur
+Input triangles N           = 2
+Extra triangles from splits = 2
+Total triangles in tree     = 4
+
+============================================================
+CASE 2: Planes aligned with polygons -> 0 extra triangles
+Input triangles N           = 2
+Extra triangles from splits = 0
