@@ -10,9 +10,8 @@ from typing import Optional
 import math
 import sys
 
-# ---------------------------------------------------------------------------
+
 # Geometry Primitives
-# ---------------------------------------------------------------------------
 
 @dataclass
 class Vec2:
@@ -59,9 +58,9 @@ class Plane:
         if d < -eps: return "back"
         return "on"
 
-# ---------------------------------------------------------------------------
+
 # BSP Logic
-# ---------------------------------------------------------------------------
+
 
 def classify_triangle(tri: Triangle, plane: Plane) -> str:
     sides = {plane.classify(v) for v in tri.vertices()}
@@ -105,9 +104,9 @@ class BSPTree:
         node.back = self._build(back_list)
         return node
 
-# ---------------------------------------------------------------------------
+
 # Execution
-# ---------------------------------------------------------------------------
+
 
 def run_minimum_demo():
     print("=" * 60)
