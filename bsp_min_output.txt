@@ -1,0 +1,9 @@
+============================================================
+BSP TREE: MINIMUM EXTRA TRIANGLES CASE
+============================================================
+Logic: Planes are aligned with polygons so no splits occur.
+
+Input triangles N           = 2
+Extra triangles from splits = 0
+Total triangles in tree     = 2
+------------------------------------------------------------
