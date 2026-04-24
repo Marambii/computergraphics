@@ -64,3 +64,10 @@ It defines **parent-child relationships** for transformations and attributes.
 
 - **Transformation Inheritance**  
   A child node’s global transformation is computed as:
+
+
+### In Question 1, to run bicycle_scene_graph.py you need the graphviz library installed in your computer. You can download it from: https://graphviz.org/download/. Then run the command pip install graphviz in your terminal.
+
+### To run bicycle_scene_graph_opengl.py run the following commands:
+    pip install pyglfw PyOpenGL PyOpenGL_accelerate
+    python bicycle_scene_graph_opengl.py
